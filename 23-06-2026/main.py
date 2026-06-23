@@ -23,7 +23,8 @@ while True:
                 precio = int(input("Ingrese precio $"))
                 agregar(patente,tipo,anio,precio)
             case 2:
-                pass
+                patente = input("Ingrese patente :").upper().strip()
+                mostrar(patente)
             case 3:
                 pass
             case 4:
