@@ -32,7 +32,7 @@ while True:
             case 5:
                 pass
             case 6:
-                pass
+                listarConIva()
             case 7:
                 break
     except Exception as e:
